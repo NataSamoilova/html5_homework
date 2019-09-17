@@ -115,10 +115,39 @@ header .aside-header {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
+  margin-bottom: 3%;
 }
 .quality-wrapper,
 .reviews-wrapper {
   background-color: #f5f5f5;
+}
+.quality-block {
+  display: flex;
+}
+.quality-block div {
+  width: 50%;
+}
+.quality-block div section {
+  display: flex;
+  margin-bottom: 35px;
+}
+.quality-block div section .img-relative {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #445162;
+  margin-right: 10px;
+}
+.quality-block div section .img-absolute {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.quality-block div section p {
+  width: 90%;
+}
+.quality-block div section:last-child {
+  margin-bottom: 0;
 }
 .footer-copyright {
   background-color: #f5f5f5;
