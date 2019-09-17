@@ -117,19 +117,20 @@ header .aside-header {
   font-weight: 400;
   margin-bottom: 3%;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .quality-wrapper,
 .reviews-wrapper {
   background-color: #f5f5f5;
 }
-.quality-block {
-  display: flex;
-}
-.quality-block div {
-  width: 50%;
-}
 .quality-block div section {
   display: flex;
   margin-bottom: 35px;
+  width: 50%;
+  float: left;
 }
 .quality-block div section .img-relative {
   position: relative;
