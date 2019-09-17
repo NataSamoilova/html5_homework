@@ -20,15 +20,11 @@ body,
 .main {
   flex-grow: 1;
 }
-.main div {
-  border: 1px solid #6c6c6c;
-}
 header,
 .main,
 footer {
   max-width: 1280px;
   width: 93%;
-  outline: 1px solid black;
   margin: 0 auto;
 }
 header,
@@ -44,8 +40,8 @@ footer li {
   color: #ffffff;
 }
 .wrapper {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 header {
   display: flex;
@@ -68,7 +64,7 @@ header ul li {
 header ul li img {
   margin-right: 10px;
 }
-header aside {
+header .aside-header {
   min-width: 470px;
   width: 37%;
   min-height: 215px;
@@ -86,6 +82,29 @@ header aside {
 .main .about-wrapper {
   display: flex;
 }
+.main .about-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main .about-wrapper article {
+  margin-right: 4%;
+  width: 55%;
+}
+.main .about-wrapper h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.main .about-wrapper p:not(:last-child) {
+  margin-bottom: 20px;
+}
+.main .about-wrapper .aside-about {
+  min-width: 430px;
+  width: 34%;
+  min-height: 245px;
+  background-color: #445161;
+  margin-bottom: 1%;
+}
 .main .quality-wrapper,
 .main .reviews-wrapper {
   background-color: #f5f5f5;
@@ -93,6 +112,7 @@ header aside {
 .h2-center {
   text-align: center;
   font-size: 30px;
+  font-weight: 400;
 }
 .footer-copyright {
   background-color: #f5f5f5;
