@@ -16,7 +16,7 @@ body,
   font-family: "Arial"
 }
 
-div{
+div {
   outline: 1px solid #445162;
 }
 
@@ -78,7 +78,7 @@ header {
     }
   }
 
-  .aside-header{
+  .aside-header {
     min-width: 470px;
     width: 37%;
     min-height: 215px;
@@ -106,43 +106,86 @@ header {
   }
 }
 
-.about-wrapper{
-    display: flex;
-    justify-content: space-between;
-    article{
-      margin-right: 4%;
-      width: 55%;
-    }
-    h2{
-      font-size: 30px;
-      font-weight: 400;
-      margin-bottom: 30px;
-    }
-    p{
-      font-size: 16px;
-    }
-    p:not(:last-child){
-      margin-bottom: 20px;
-    }
-    .aside-about{
-      min-width: 430px;
-      width: 34%;
-      min-height: 245px;
-      background-color: #445161;
-      margin-bottom: 1%;
-    }
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  article {
+    margin-right: 4%;
+    width: 55%;
   }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .aside-about {
+    min-width: 430px;
+    width: 34%;
+    min-height: 245px;
+    background-color: #445161;
+    margin-bottom: 1%;
+  }
+}
 
 .h2-center {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
+  margin-bottom: 3%;
 }
 
 .quality-wrapper,
 .reviews-wrapper {
   background-color: #f5f5f5;
 }
+
+.quality-block {
+  display: flex;
+
+  div {
+    width: 50%;
+
+    section {
+      display: flex;
+      margin-bottom: 35px;
+
+      .img-relative {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        background-color: #445162;
+        margin-right: 10px;
+      }
+
+      .img-absolute {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+      }
+
+      p {
+        width: 90%;
+      }
+    }
+    section:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
 
 .footer-copyright {
   background-color: #f5f5f5;
