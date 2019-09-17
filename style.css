@@ -11,6 +11,7 @@ html,
 body,
 .page {
   height: 100%;
+  font-family: "Arial";
 }
 .page {
   display: flex;
@@ -25,23 +26,64 @@ body,
 header,
 .main,
 footer {
-  max-width: 1300px;
+  max-width: 1280px;
   width: 93%;
   outline: 1px solid black;
   margin: 0 auto;
 }
 header,
 footer {
-  background-color: #f3c992;
+  background-color: #445162;
+}
+header h1,
+footer h1,
+header h2,
+footer h2,
+header li,
+footer li {
+  color: #ffffff;
 }
 header {
   display: flex;
 }
-header li {
+header h1 {
+  padding-top: 5%;
+  font-size: 60px;
+  font-weight: 400;
+}
+header ul {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+header ul li {
   list-style-type: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+header ul li img {
+  margin-right: 10px;
+}
+.padding-side {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.main h2,
+.main p {
+  color: #445161;
 }
 .main .about-wrapper {
   display: flex;
+}
+.footer-copyright {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-copyright p {
+  font-size: 14px;
+  color: #445161;
 }
 /*MEDIA*/
 @media screen and (max-width: 768px) {
