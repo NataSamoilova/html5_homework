@@ -13,6 +13,9 @@ body,
   height: 100%;
   font-family: "Arial";
 }
+div {
+  outline: 1px solid #445162;
+}
 .page {
   display: flex;
   flex-direction: column;
@@ -82,37 +85,37 @@ header .aside-header {
 .main .about-wrapper {
   display: flex;
 }
-.main .about-wrapper {
+.about-wrapper {
   display: flex;
   justify-content: space-between;
 }
-.main .about-wrapper article {
+.about-wrapper article {
   margin-right: 4%;
   width: 55%;
 }
-.main .about-wrapper h2 {
+.about-wrapper h2 {
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 30px;
 }
-.main .about-wrapper p:not(:last-child) {
+.about-wrapper p:not(:last-child) {
   margin-bottom: 20px;
 }
-.main .about-wrapper .aside-about {
+.about-wrapper .aside-about {
   min-width: 430px;
   width: 34%;
   min-height: 245px;
   background-color: #445161;
   margin-bottom: 1%;
 }
-.main .quality-wrapper,
-.main .reviews-wrapper {
-  background-color: #f5f5f5;
-}
 .h2-center {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
+}
+.quality-wrapper,
+.reviews-wrapper {
+  background-color: #f5f5f5;
 }
 .footer-copyright {
   background-color: #f5f5f5;
