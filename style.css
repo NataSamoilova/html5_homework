@@ -1,8 +1,48 @@
-<html>
-  <head>
-    <title></title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body></body>
-</html>
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+html,
+body,
+.page {
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.header,
+.main,
+.footer {
+  max-width: 1300px;
+  width: 93%;
+  outline: 1px solid black;
+  margin: 0 auto;
+}
+
+.header,
+.footer{
+  height: 200px;
+  background-color: rgb(243, 201, 146);
+}
+
+@media screen and (max-width:500px){
+  .header,
+  .main,
+  .footer{
+    width:100%;
+  }
+}
