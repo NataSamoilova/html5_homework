@@ -79,9 +79,11 @@ header .aside-header {
   padding-left: 2%;
 }
 .main h2,
-.main h3,
-.main p {
+.main h3 {
   color: #445161;
+}
+.main p {
+  color: #333333;
 }
 .main .about-wrapper {
   display: flex;
@@ -171,6 +173,41 @@ header .aside-header {
 }
 .screenshot .screenshot-block:last-child,
 .screenshot .screenshot-block:nth-last-child(2) {
+  margin-bottom: 0;
+}
+.review {
+  display: flex;
+  width: 49.5%;
+  float: left;
+  margin-bottom: 25px;
+}
+.review section {
+  margin-left: 15px;
+  margin-right: 30px;
+  background: url(img/bg_review.png) no-repeat;
+}
+.review section p {
+  padding-left: 27px;
+  padding-right: 25px;
+  color: #333333;
+  font-family: "Arial - Italic";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.review section .sign-name {
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 10px;
+}
+.reviews-block .review:nth-child(2n+1) {
+  padding-right: 1%;
+}
+.reviews-block .review:last-child,
+.reviews-block .review:nth-last-child(2) {
   margin-bottom: 0;
 }
 .footer-copyright {
