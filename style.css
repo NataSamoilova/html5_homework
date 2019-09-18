@@ -244,12 +244,34 @@ header .aside-header {
   list-style-type: none;
   padding-left: 20px;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 .buyIt-block .column ol li {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+}
+.buyIt-block .column a {
+  display: inline-block;
+  text-decoration: none;
+  color: #445161;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 90%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 5%;
+}
+.buyIt-block .column a:active {
+  color: #050505;
+}
+.buyIt-block .column a:hover {
+  color: #a8a2a2;
 }
 .buyIt-block .column:last-child {
   margin-right: 0;
