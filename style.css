@@ -79,6 +79,7 @@ header .aside-header {
   padding-left: 2%;
 }
 .main h2,
+.main h3,
 .main p {
   color: #445161;
 }
@@ -147,7 +148,29 @@ header .aside-header {
 .quality-block div section p {
   width: 90%;
 }
-.quality-block div section:last-child {
+.quality-block div section:last-child,
+.quality-block div section:nth-last-child(2) {
+  margin-bottom: 0;
+}
+.screenshot-block {
+  display: flex;
+  width: 49.5%;
+  float: left;
+  margin-bottom: 30px;
+}
+.screenshot-block article {
+  padding-left: 10px;
+}
+.screenshot-block article h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.screenshot .screenshot-block:nth-child(2n+1) {
+  padding-right: 1%;
+}
+.screenshot .screenshot-block:last-child,
+.screenshot .screenshot-block:nth-last-child(2) {
   margin-bottom: 0;
 }
 .footer-copyright {
