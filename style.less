@@ -49,7 +49,7 @@ footer {
 }
 
 .wrapper {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 3%;
 }
 
@@ -146,7 +146,7 @@ header {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 .clearfix::after {
@@ -280,7 +280,8 @@ header {
     margin-right: 45px;
     padding-top: 16px;
     padding-bottom: 20px;
-    
+    border-radius: 7px;
+
     h3 {
       color: #ffffff;
       font-weight: 400;
@@ -344,6 +345,103 @@ header {
 
   .column:last-child {
     margin-right: 0;
+  }
+}
+
+.contacts-block {
+  display: flex;
+
+  .form-wrapper {
+    width: 60%;
+    text-align: end;
+
+    fieldset {
+      border: none;
+
+
+      input {
+        color: #030303;
+        border-radius: 5px;
+        width: 490px;
+        height: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+      }
+
+      textarea {
+        color: #030303;
+        border-radius: 5px;
+        width: 490px;
+        height: 160px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+      }
+
+      .button {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-transform: uppercase;
+        width: 140px;
+        height: 40px;
+        border: none;
+        margin-right: 180px;
+        background-color: #ffffff;
+        margin-bottom: 0;
+      }
+
+      .button:hover {
+        color: #899bb3;
+        background-color: #ffffff;
+      }
+
+      .button:active {
+        border: 1px solid #333333;
+      }
+    }
+  }
+
+  .contacts-wrapper {
+    width: 40%;
+
+    .contacts {
+      margin-left: 45px;
+
+      ul {
+        margin-bottom: 35px;
+
+        li {
+          list-style-type: none;
+          margin-bottom: 15px;
+
+          img {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+    .sotial-icons {
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 5px;
+        i{
+          font-size: 40px;
+        }
+      }
+      a:hover{
+        color: #899bb3;
+      }
+    }
   }
 }
 
