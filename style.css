@@ -323,6 +323,7 @@ header .aside-header {
   border: none;
   margin-right: 180px;
   background-color: #ffffff;
+  margin-bottom: 0;
 }
 .contacts-block .form-wrapper fieldset .button:hover {
   color: #899bb3;
