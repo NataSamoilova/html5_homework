@@ -229,7 +229,7 @@ header {
   float: left;
   margin-bottom: 25px;
 
-  section {
+  .section-review {
     margin-left: 15px;
     margin-right: 30px;
     background: url(img/bg_review.png) no-repeat;
@@ -419,12 +419,19 @@ header {
       ul {
         margin-bottom: 35px;
 
+
         li {
           list-style-type: none;
           margin-bottom: 15px;
+          display: flex;
 
           img {
             margin-right: 5px;
+            display: block;
+          }
+
+          span {
+            padding-top: 5px;
           }
         }
       }
@@ -435,11 +442,13 @@ header {
         text-decoration: none;
         color: #ffffff;
         margin-left: 5px;
-        i{
+
+        i {
           font-size: 40px;
         }
       }
-      a:hover{
+
+      a:hover {
         color: #899bb3;
       }
     }
