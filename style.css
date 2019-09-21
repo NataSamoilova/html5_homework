@@ -13,9 +13,7 @@ body,
   height: 100%;
   font-family: "Arial";
 }
-/*div {
-  outline: 1px solid #445162;
-}*/
+
 .page {
   display: flex;
   flex-direction: column;
@@ -68,10 +66,9 @@ header ul li img {
   margin-right: 10px;
 }
 header .aside-header {
-  min-width: 470px;
-  width: 37%;
-  min-height: 215px;
-  background-color: #ffffff;
+  width: 469px;
+  height: 215px;
+  background-image: url(img/car.jpg);
   margin-bottom: 1%;
 }
 .padding-side {
@@ -108,10 +105,9 @@ header .aside-header {
   margin-bottom: 20px;
 }
 .about-wrapper .aside-about {
-  min-width: 430px;
-  width: 34%;
-  min-height: 245px;
-  background-color: #445161;
+  width: 430px;
+  height: 245px;
+  background-image:url(img/engine.jpg);
   margin-bottom: 1%;
 }
 .h2-center {
@@ -180,6 +176,9 @@ header .aside-header {
   width: 49.5%;
   float: left;
   margin-bottom: 25px;
+}
+.review img{
+  border-radius: 50%;
 }
 .review .section-review {
   margin-left: 15px;
